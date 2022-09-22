@@ -25,7 +25,7 @@ TG_CHATID=<Ваш chat_id>
 ```
 docker build . -t container_name
 ```
-Вместо container_name можно задать любое свое имя контейнера.
+Вместо container_name можно задать любое свое имя контейнера.  
 6. Запустите контейнер:
 ```
 docker run -d container_name
