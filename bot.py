@@ -5,6 +5,10 @@ from requests import get
 from requests.exceptions import ReadTimeout, ConnectionError
 from textwrap import dedent
 from time import sleep
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 class TelegramLogsHandler(logging.Handler):
